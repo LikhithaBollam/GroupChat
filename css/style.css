@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Caprasimo&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Caprasimo&display=swap');
 
 body{
 background: url(bg.jpg) no-repeat center fixed;
@@ -21,8 +20,8 @@ h1{
     margin: 0;
     font-size: 38px;
     color: #3a5bda;
-    font-family: 'Caprasimo', cursive;
-    opacity:0.7;
+    font-family: 'Abril Fatface', cursive;
+    opacity:1;
 }
 
 
@@ -130,7 +129,15 @@ clear:both;
 
 
 }
+@media (max-width:476px){
+    h1{
+        font-size: 30px;
+    }
+}
 
-
-
+@media (max-width: 742px){
+body {
+    background-size: contain;
+}
+}
 
